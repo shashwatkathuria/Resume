@@ -1,0 +1,314 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is a modified ONE COLUMN version of
+% the following template:
+%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Shashwat}{Kathuria}{ \urlstyle{same}\url{https://github.com/shashwatkathuria} \\
+\href{mailto:kathuria.1@iitj.ac.in}{kathuria.1@iitj.ac.in}, \href{mailto:shashwatkathuria@yahoo.co.in}{shashwatkathuria@yahoo.co.in} | +91-9971383462
+}
+\href{https://shashwatkathuria.github.io/}{https://shashwatkathuria.github.io/}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     EDUCATION
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\runsubsection{Indian Institute of Technology, Jodhpur}
+\descript{| Pre Final Year B.Tech in Computer Science }
+\begin{large}CGPA: \custombold{9.14/10}(Till 4th Semester) \textbullet{} Department \custombold{Rank 4} \textbullet{} Expected 2021\end{large}
+\sectionsep
+
+\runsubsection{G. D. Goenka Public School, New Delhi}
+\descript{| CBSE}
+{\begin{large}Class 10, 2015 \textbullet{} CGPA  \custombold{: 9.6/10\\}\end{large}\begin{large}Class 12, 2017 \textbullet{} Percentage  \custombold{: 96\% \\}\end{large}}
+
+% \location{\begin{large}Class 10, 2015\end{large}}
+% \begin{large}
+% CGPA : \custombold{9.6/10}
+% \end{large}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     INTERESTS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Interests}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{large}
+\custombold{Data Structures \& Algorithms \textbullet{} Android Application \& Web Development \textbullet{} Machine Learning \textbullet{} \newline Game Development}
+\end{large}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TECHNICAL SKILLS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Technical Skills}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{minipage}[t]{.6\textwidth}
+\subsection{Programming Languages}
+\begin{large}
+
+C \textbullet{}   C++ \textbullet{} Python \textbullet{} Java \textbullet{}
+JavaScript \textbullet{} Ruby \textbullet{} Lua \\
+\end{large}
+\subsection{Web Development}
+\begin{large}
+Django \textbullet{} Ruby on Rails \textbullet{} Flask \\
+JavaScript \textbullet{} HTML \textbullet{} CSS \textbullet{} Bootstrap \\
+PostgreSQL \textbullet{} SQLite \textbullet{} MongoDB
+\end{large}
+\sectionsep
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.35\textwidth}
+\subsection{Android App Development}
+\begin{large}
+Android Studio \textbullet{} React Native \\
+\end{large}
+\subsection{Utilities}
+\begin{large}
+Git \textbullet{} SSH \textbullet{} Raspberry Pi \textbullet{} Microsoft Azure \textbullet{} Heroku
+\end{large}
+\end{minipage}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     PROJECTS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\runsubsection{SocialCloud*}
+\descript{|\begin{large}
+Web Development, JavaScript Application
+\end{large} }
+\location{*(Ongoing Project) | \underline{\href{https://www.github.com/shashwatkathuria/SocialCloud}{GitHub}}$\rightarrow$}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{large}
+\vbox{ An online social media website for users to post images and follow others. Currently implementing using \custombold{Ruby on Rails}, \custombold{Bootstrap(HTML / CSS / JavaScript)}, \custombold{AngularJS} and a combination of \custombold{SQLLite}, \custombold{PostgreSQL} and \custombold{MongoDB}.}
+\end{large}
+\sectionsep
+
+\runsubsection{Natural Language Processing}
+\descript{|\begin{large}
+Machine Learning, NLTK, Scikit
+\end{large} }
+\location{B.TECH PROJECT | \underline{\href{https://www.github.com/shashwatkathuria}{GitHub}}$\rightarrow$}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{large}
+\vbox{ Programmed various Hindi and English \custombold{Part of Speech Taggers} using \custombold{Hidden Markov Model} with \custombold{Viterbi’s Algorithm ( Bigram and Trigram )},  \custombold{Decision Tree Classifier Model Tagger} and achieved \custombold{92.85 \%} accuracy.}
+\end{large}
+\sectionsep
+
+\runsubsection{IITJ HealthCare}
+\descript{|\begin{large}
+Software Engineering, Web Development
+\end{large} }
+\location{\underline{\href{https://drive.google.com/open?id=1gLBj9akrKigSoae0Vlbf7UVykw1XdBpU}{Demo Video}}$\rightarrow$| \underline{\href{https://github.com/shashwatkathuria/IITJHealthCare-Project}{GitHub}}$\rightarrow$ | \underline{\href{https://iitj-healthcare-sk17.herokuapp.com}{Deployed on Heroku}}$\rightarrow$}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{large}
+\vbox{An online health care assistance portal made using \custombold{Django (Python)}, combination of \custombold{SQLLite / PostgreSQL} and  \custombold{Bootstrap (HTML / CSS / JavaScript)} to help students get online prescriptions from doctors and availability regarding medicines through medical store.}
+\end{large}
+\sectionsep
+
+\runsubsection{Drawing Canvas}
+\descript{|\begin{large}
+Web Development, JavaScript Application
+\end{large}}
+\location{\underline{\href{https://github.com/shashwatkathuria/Drawing-Canvas}{GitHub}}$\rightarrow$ | \underline{\href{https://drawing-canvas-sk17.herokuapp.com}{Deployed on Heroku}}$\rightarrow$}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{large}
+\vbox{An online drawing application made using \custombold{ReactJS}, \custombold{d3JS}, combination of \custombold{SQLLite / PostgreSQL} and \custombold{Django (Python)} to help users draw anything and save or load the same by communicating with the server. }
+\end{large}
+\sectionsep
+
+\newpage
+
+\runsubsection{Pong, Flappy Bird}
+\descript{| \begin{large}
+2D Game Development
+\end{large}}
+\location{\underline{\href{https://github.com/shashwatkathuria/Pong-GameDevelopment}{GitHub Pong}}$\rightarrow$ | \underline{\href{https://github.com/shashwatkathuria/FlappyBird-GameDevelopment}{GitHub Flappy Bird}}$\rightarrow$}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{large}
+\vbox{Programmed remakes of respective games made using the language \custombold{Lua} and framework \custombold{LÖVE2D}. Pong is a multiplayer game and Flappy Bird is a single player game. }
+\end{large}
+\sectionsep
+
+\runsubsection{Disaster Safety App}
+\descript{| \begin{large}
+Android Application, Web Development
+\end{large}}
+\location{\underline{\href{https://github.com/shashwatkathuria/Disaster-Safety-Web-App}{GitHub Web App}}$\rightarrow$ | \underline{\href{https://github.com/shashwatkathuria/Disaster-Safety-Android-App}{GitHub Android App}}$\rightarrow$ }
+
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{large}
+\vbox{Programmed an android and web application to broadcast and get online alerts regarding earthquakes, floods and hurricanes by communicating to the server, using \custombold{Flask (Python)}  and \custombold{Android Studio (Java)}.}
+\end{large}
+\sectionsep
+
+\runsubsection{Cryptography}
+\descript{| \begin{large}
+Python, C
+\end{large}}
+\location{\underline{\href{https://github.com/shashwatkathuria/Disaster-Safety-Android-App}{GitHub}}$\rightarrow$}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{large}
+\vbox{Analyzed and programmed \custombold{CBC Padding Oracle attack}, hash verification of videos using \custombold{SHA-256}, \custombold{CBC} and \custombold{CTR} Modes \custombold{AES Decryption}, \custombold{Many Time Pass} hack along with a guessing heuristic, and various historic ciphers like \custombold{Caesar} and \custombold{Vigenère} as a part of Cryptography I course under Professor Dan Boneh.}
+\end{large}
+\sectionsep
+
+\runsubsection{Data Structures And Algorithms}
+\descript{| \begin{large}
+Python, C++, C
+\end{large}}
+\location{3 Forks | Open-Sourced \underline{\href{https://github.com/shashwatkathuria/Cryptography}{ GitHub}}$\rightarrow$}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{large}
+\vbox{Programmed a total of 38 programs in \custombold{Python}, \custombold{C++} and \custombold{C}, a major part of which was of the Stanford University Data Structures and Algorithms Specialization under Professor Tim Roughgarden.}
+\end{large}
+\sectionsep
+
+\runsubsection{Drag v/s Normal Projectile}
+\descript{| \begin{large}
+PyLab - Python
+\end{large}}
+\location{\underline{\href{https://github.com/shashwatkathuria/Drag-vs-Normal-Projectile-Python-Project}{GitHub}}$\rightarrow$}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{large}
+\vbox{Graphical comparison of drag and normal particle projectiles using \custombold{PyLab} library in \custombold{Python}.}
+\end{large}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     ACHIEVEMENTS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Achievements}
+
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\runsubsection{SCHOLASTIC}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{large}
+\begin{tightemize}
+\item \custombold{Rank 2471, JEE Main}, among top 0.2\% of 1.2 million participants
+\item \custombold{Rank 2848, JEE Advanced}, among top 1.5\% of 0.2 million participants
+\item \custombold{Data Structures \& Algorithms 4 Course Specialization}, Stanford University
+\item \custombold{Cryptography 1}, Stanford University
+\item \custombold{MIT 6.00.1x Course}, Massachusetts Institute of Technology
+\item \custombold{MIT 6.00.2x Course}, Massachusetts Institute of Technology
+\item \custombold{CS50}, Introduction to Computer Science, Harvard University
+\item \custombold{SAT Subject PCM Perfect Scorer} - 2400 / 2400
+\item SAT Score - 2100 / 2400
+\item 3 - Time \custombold{Scholastic Excellence Awardee}
+\item \custombold{School Topper}, Class 12 CBSE Exams
+\end{tightemize}
+\end{large}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+
+\runsubsection{EXTRACURRICULAR}
+
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{large}
+\begin{tightemize}
+\item Former \custombold{State Level Football Player}, New Delhi
+\item \custombold{Football Inter - Zonals Winner}, New Delhi
+\item 4 - Time School Level \custombold{Athletics Record Breaker}
+\item Participated in Various Olympiads, Trekking Camps
+\end{tightemize}
+\end{large}
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     POSITIONS OF RESPONSIBILITY
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Positions of Responsibility}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{large}
+\begin{tightemize}
+\item \custombold{Vice Sports Captain} | Class 11
+\item \custombold{Sports Captain} | Class 12
+\end{tightemize}
+\end{large}
+\sectionsep
+
+\end{document}  \documentclass[]{article}
