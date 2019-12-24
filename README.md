@@ -1,6 +1,6 @@
 # Resume
 -----------
 
-Last updated : 23rd November 2019
+Last updated : 24th December 2019
 
 -----------
