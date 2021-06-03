@@ -1,6 +1,6 @@
 # Resume
 -----------
 
-Last updated : 24th December 2019
+Last updated : 3rd June 2021
 
 -----------
